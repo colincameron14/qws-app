@@ -9,7 +9,22 @@
   <title>QWS Nest Box Monitor</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <style>body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#0A0A0A;}</style>
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#0A0A0A;}
+    @keyframes qws-pulse {
+      0%   { box-shadow: 0 0 0 0   rgba(0,229,255,0.55); }
+      70%  { box-shadow: 0 0 0 18px rgba(0,229,255,0);   }
+      100% { box-shadow: 0 0 0 0   rgba(0,229,255,0);   }
+    }
+    .qws-user-dot {
+      width:18px; height:18px;
+      background:#00E5FF;
+      border:3px solid white;
+      border-radius:50%;
+      box-shadow:0 0 0 0 rgba(0,229,255,0.6);
+      animation: qws-pulse 1.8s ease-out infinite;
+    }
+  </style>
 </head>
 <body>
   <div id="root"></div>
