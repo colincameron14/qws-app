@@ -485,4 +485,3 @@ const S = {
 };
 
 export default App;
-APPEOF2
