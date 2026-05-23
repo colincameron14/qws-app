@@ -49,28 +49,28 @@ const getStatusLabel = (contents, condition) => {
 const INITIAL_BOXES = [
   { id: '1NM', section: 'NM', contents: 'Original Pine Straw', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.712595, lng: -86.631417 },
   { id: '2NM', section: 'NM', contents: 'Chicks Only', condition: 'Good', species: 'Tree Swallow', notes: 'At least two hatchlings!!!!!', eggs: 0, chicks: 2, lat: 34.712589, lng: -86.631232 },
-  { id: '3NM', section: 'NM', contents: 'Original Pine Straw', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.711045, lng: -86.631657 },
+  { id: '3NM', section: 'NM', contents: 'Original Pine Straw', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.7110342, lng: -86.6317103 },
   { id: '4NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.711011, lng: -86.631624 },
   { id: '5NM', section: 'NM', contents: 'Eggs', condition: 'Good', species: 'Tree Swallow', notes: '', eggs: 2, chicks: 0, lat: 34.710964, lng: -86.631325 },
   { id: '6NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.710954, lng: -86.631274 },
   { id: '7NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.710943, lng: -86.631206 },
-  { id: '8NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.710953, lng: -86.63121 },
-  { id: '9NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.710957, lng: -86.631197 },
-  { id: '10NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.71092, lng: -86.630945 },
-  { id: '11NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.710918, lng: -86.630949 },
+  { id: '8NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.7109378, lng: -86.6311103 },
+  { id: '9NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.7109285, lng: -86.6310178 },
+  { id: '10NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.7109174, lng: -86.6309366 },
+  { id: '11NM', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.7109137, lng: -86.6308487 },
   { id: '12TV', section: 'TV', contents: 'Active Nest (no eggs yet)', condition: 'Good', species: 'Tree Swallow', notes: 'Grass and feather nest', eggs: 0, chicks: 0, lat: 34.710429, lng: -86.630865 },
   { id: '13TV', section: 'TV', contents: 'Original Pine Straw', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.710388, lng: -86.630682 },
   { id: '14TV', section: 'TV', contents: 'Original Pine Straw', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.710171, lng: -86.630793 },
   { id: '15TV', section: 'TV', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.709995, lng: -86.630768 },
   { id: '16TV', section: 'TV', contents: 'Original Pine Straw', condition: 'Good', species: 'Other/Unknown', notes: '', eggs: 0, chicks: 0, lat: 34.709882, lng: -86.63082 },
   { id: '17BW', section: 'BW', contents: 'Active Nest (no eggs yet)', condition: 'Good', species: 'Other/Unknown', notes: 'Huge grass nest', eggs: 0, chicks: 0, lat: 34.709785, lng: -86.630816 },
-  { id: '18BW', section: 'BW', contents: 'Original Pine Straw', condition: 'Good', species: 'Other/Unknown', notes: 'Grass nest', eggs: 0, chicks: 0, lat: 34.709654, lng: -86.630918 },
+  { id: '18BW', section: 'BW', contents: 'Original Pine Straw', condition: 'Good', species: 'Other/Unknown', notes: 'Grass nest', eggs: 0, chicks: 0, lat: 34.7096956, lng: -86.6308532 },
   { id: '19BW', section: 'BW', contents: 'Original Pine Straw', condition: 'Needs Spraying', species: 'Tree Swallow', notes: 'Dead tree swallow covered in ants', eggs: 0, chicks: 0, lat: 34.709622, lng: -86.630916 },
   { id: '20BW', section: 'BW', contents: 'Original Pine Straw', condition: 'Good', species: 'Empty', notes: 'Stick nest', eggs: 0, chicks: 0, lat: 34.709562, lng: -86.63096 },
   { id: '21BW', section: 'BW', contents: 'Active Nest (no eggs yet)', condition: 'Good', species: 'Empty', notes: 'Stick and grass nest', eggs: 0, chicks: 0, lat: 34.709432, lng: -86.631048 },
   { id: '22BW', section: 'BW', contents: 'Empty', condition: 'Needs Maintenance', species: 'Empty', notes: 'Needs new house and baffle', eggs: 0, chicks: 0, lat: 34.709667, lng: -86.63109 },
-  { id: '23BW', section: 'BW', contents: 'Empty', condition: 'Needs Maintenance', species: 'Empty', notes: 'In sprinkler zone', eggs: 0, chicks: 0, lat: 34.709743, lng: -86.631079 },
-  { id: '24BW', section: 'BW', contents: 'Empty', condition: 'Needs Maintenance', species: 'Empty', notes: 'Needs new house, baffle', eggs: 0, chicks: 0, lat: 34.709818, lng: -86.631067 },
+  { id: '23BW', section: 'BW', contents: 'Empty', condition: 'Needs Maintenance', species: 'Empty', notes: 'In sprinkler zone', eggs: 0, chicks: 0, lat: 34.7097291, lng: -86.6309953 },
+  { id: '24BW', section: 'BW', contents: 'Empty', condition: 'Needs Maintenance', species: 'Empty', notes: 'Needs new house, baffle', eggs: 0, chicks: 0, lat: 34.7097732, lng: -86.6310999 },
   { id: '25BW', section: 'BW', contents: 'Active Nest (no eggs yet)', condition: 'Good', species: 'Empty', notes: 'Grass and feather nest', eggs: 0, chicks: 0, lat: 34.709372, lng: -86.631234 },
   { id: '26BW', section: 'BW', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Dead chickadee on nest', eggs: 0, chicks: 0, lat: 34.709467, lng: -86.63126 },
   { id: '27PM', section: 'PM', contents: 'Original Pine Straw', condition: 'Good', species: 'Other/Unknown', notes: 'Stick nest', eggs: 0, chicks: 0, lat: 34.709879, lng: -86.636264 },
@@ -93,7 +93,22 @@ const INITIAL_BOXES = [
   { id: '44AT', section: 'AT', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.704415, lng: -86.632735 },
   { id: '45AT', section: 'AT', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.704696, lng: -86.632412 },
   { id: '46AT', section: 'AT', contents: 'Empty', condition: 'Good', species: 'Empty', notes: '', eggs: 0, chicks: 0, lat: 34.704898, lng: -86.632723 },
-  { id: '47AT', section: 'AT', contents: 'Original Pine Straw', condition: 'Good', species: 'Other/Unknown', notes: 'Moss and grass nest', eggs: 0, chicks: 0, lat: 34.705416, lng: -86.632853 }
+  { id: '47AT', section: 'AT', contents: 'Original Pine Straw', condition: 'Good', species: 'Other/Unknown', notes: 'Moss and grass nest', eggs: 0, chicks: 0, lat: 34.705416, lng: -86.632853 },
+  // Legacy boxes added 2026-05-22
+  { id: 'OLDNM2', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7112174, lng: -86.6319823 },
+  { id: 'OLDTV7', section: 'TV', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7112064, lng: -86.6318724 },
+  { id: 'OLDNM4', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7111866, lng: -86.6317409 },
+  { id: 'OLDNM5', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7111645, lng: -86.6316015 },
+  { id: 'OLDNM3', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7111513, lng: -86.6315022 },
+  { id: 'OLDNM7', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7111381, lng: -86.631352 },
+  { id: 'OLDNM8', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7111248, lng: -86.6312501 },
+  { id: 'OLDNM9', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.711116, lng: -86.6311455 },
+  { id: 'OLDNM10', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.711116, lng: -86.6310516 },
+  { id: 'OLDNM11', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7111006, lng: -86.6309711 },
+  { id: 'OLDNM12', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7110984, lng: -86.6308853 },
+  { id: 'OLDNM13', section: 'NM', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7111072, lng: -86.6308022 },
+  { id: 'OLDBW5', section: 'BW', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.7111072, lng: -86.6307244 },
+  { id: 'OLDBW6', section: 'BW', contents: 'Empty', condition: 'Good', species: 'Empty', notes: 'Legacy box', eggs: 0, chicks: 0, lat: 34.711105, lng: -86.6306439 }
 ];
 
 const INITIAL_CHECKS = [
@@ -209,20 +224,30 @@ function App() {
         await addDoc(collection(db, 'checks'), check);
       }
     } else {
-      // Idempotent GPS backfill: any existing box missing lat/lng gets it from INITIAL_BOXES
+      // Sync mode: create any new INITIAL_BOXES entries that aren't in Firestore yet,
+      // and patch lat/lng on existing boxes when the code's value differs from what's stored.
+      // Only touches lat/lng + new docs — never overwrites volunteer-edited fields (contents, eggs, etc).
+      const existing = {};
+      boxesSnapshot.docs.forEach(d => { existing[d.id] = { ref: d.ref, data: d.data() }; });
       const batch = writeBatch(db);
-      let patched = 0;
-      boxesSnapshot.docs.forEach(d => {
-        const data = d.data();
-        const ref = INITIAL_BOXES.find(b => b.id === d.id);
-        if (ref && ref.lat != null && (data.lat == null || data.lng == null)) {
-          batch.update(d.ref, { lat: ref.lat, lng: ref.lng });
-          patched++;
+      let created = 0, patched = 0;
+      INITIAL_BOXES.forEach(box => {
+        const e = existing[box.id];
+        if (!e) {
+          batch.set(doc(db, 'boxes', box.id), { ...box });
+          created++;
+        } else if (box.lat != null && box.lng != null) {
+          const dlat = Math.abs((e.data.lat ?? 0) - box.lat);
+          const dlng = Math.abs((e.data.lng ?? 0) - box.lng);
+          if (e.data.lat == null || e.data.lng == null || dlat > 1e-7 || dlng > 1e-7) {
+            batch.update(e.ref, { lat: box.lat, lng: box.lng });
+            patched++;
+          }
         }
       });
-      if (patched > 0) {
+      if (created + patched > 0) {
         await batch.commit();
-        console.log(`[QWS] Backfilled GPS coordinates on ${patched} box(es).`);
+        console.log(`[QWS] Synced boxes: ${created} created, ${patched} GPS patched.`);
       }
     }
   };
